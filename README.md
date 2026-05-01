@@ -1,26 +1,16 @@
-'''
 # AI Spam Classifier
 
-This project implements a basic machine learning pipeline to classify text messages as spam or not spam using Python and scikit-learn.
+A simple machine learning project that classifies text messages as spam or not spam.
 
----
+## Description
 
-## Problem Statement
+This project uses basic machine learning techniques to detect spam messages. It demonstrates how text data can be converted into numerical form and used to train a classification model.
 
-Unwanted spam messages are common in communication systems. The goal of this project is to build a simple model that can automatically classify messages based on their content.
+## Features
 
----
-
-## Approach
-
-The solution follows a standard machine learning workflow:
-
-1. Collect sample text data with labels (spam / not spam)  
-2. Convert text into numerical features using CountVectorizer  
-3. Train a classification model using Naive Bayes  
-4. Evaluate predictions on new, unseen input  
-
----
+- Classifies messages as Spam or Not Spam  
+- Uses basic NLP techniques  
+- Runs in the command line  
 
 ## Tech Stack
 
@@ -28,7 +18,35 @@ The solution follows a standard machine learning workflow:
 - scikit-learn  
 - pandas  
 
----
+## Installation
 
-## Project Structure
-'''
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/spam-classifier.git
+cd spam-classifier
+```
+Install dependencies:
+```
+pip install pandas scikit-learn
+```
+# Usage
+
+Run the program:
+```
+python model.py
+```
+Enter a message when prompted.
+
+Example
+```
+Input:
+win money now
+
+Output:
+Spam
+```
+Project Structure
+spam-classifier/
+│── model.py
+│── README.md
